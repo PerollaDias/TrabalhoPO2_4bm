@@ -1,0 +1,17 @@
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\obj\Debug\TrabalhoPO2-4bim.csproj.AssemblyReference.cache
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\obj\Debug\TrabalhoPO2-4bim.csproj.SuggestedBindingRedirects.cache
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\obj\Debug\TrabalhoPO2_4bim.Cadastrar_Funcionário.resources
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\obj\Debug\TrabalhoPO2_4bim.Cadastra_Cliente.resources
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\obj\Debug\TrabalhoPO2_4bim.Cadastrar_Fornecedor.resources
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\obj\Debug\TrabalhoPO2_4bim.Menu.resources
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\obj\Debug\TrabalhoPO2_4bim.Properties.Resources.resources
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\obj\Debug\TrabalhoPO2-4bim.csproj.GenerateResource.cache
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\obj\Debug\TrabalhoPO2-4bim.csproj.CoreCompileInputs.cache
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\bin\Debug\TrabalhoPO2-4bim.exe.config
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\bin\Debug\TrabalhoPO2-4bim.exe
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\bin\Debug\TrabalhoPO2-4bim.pdb
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\obj\Debug\TrabalhoPO2_4bim.Form1.resources
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\obj\Debug\TrabalhoPO2-4bim.exe
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\obj\Debug\TrabalhoPO2-4bim.pdb
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\obj\Debug\TrabalhoPO2_4bim.Controle_de_acesso.resources
+C:\Users\2022102020078\source\repos\TrabalhoPO2-4bim\TrabalhoPO2-4bim\obj\Debug\TrabalhoPO2_4bim.Plano_de_treino.resources
