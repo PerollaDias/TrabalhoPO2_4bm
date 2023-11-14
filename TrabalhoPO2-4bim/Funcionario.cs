@@ -8,11 +8,10 @@ namespace TrabalhoPO2_4bim
 {
     internal class Funcionario
     {
-        public string nm { get; set; }
-        public string end { get; set; }
+        public string nome { get; set; }
+        public string cargo { get; set; }
         public string cpf { get; set; }
-        public string id { get; set; }
         public string tel { get; set; }
-        public DateTime nascimen { get; set; }
+        public string nascimento { get; set; }
     }
 }

@@ -49,6 +49,7 @@
             this.maskedTextBox3.Size = new System.Drawing.Size(89, 20);
             this.maskedTextBox3.TabIndex = 24;
             this.maskedTextBox3.ValidatingType = typeof(System.DateTime);
+            this.maskedTextBox3.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox3_MaskInputRejected);
             // 
             // maskedTextBox2
             // 
@@ -57,6 +58,7 @@
             this.maskedTextBox2.Name = "maskedTextBox2";
             this.maskedTextBox2.Size = new System.Drawing.Size(100, 20);
             this.maskedTextBox2.TabIndex = 23;
+            this.maskedTextBox2.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox2_MaskInputRejected);
             // 
             // maskedTextBox1
             // 
@@ -79,6 +81,7 @@
             this.label4.Size = new System.Drawing.Size(86, 16);
             this.label4.TabIndex = 21;
             this.label4.Text = "TELEFONE:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
@@ -91,6 +94,7 @@
             this.label3.Size = new System.Drawing.Size(104, 16);
             this.label3.TabIndex = 20;
             this.label3.Text = "NASCIMENTO:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -103,6 +107,7 @@
             this.label2.Size = new System.Drawing.Size(38, 16);
             this.label2.TabIndex = 19;
             this.label2.Text = "CPF:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // tx_Nome
             // 
@@ -123,6 +128,7 @@
             this.label1.Size = new System.Drawing.Size(53, 16);
             this.label1.TabIndex = 17;
             this.label1.Text = "NOME:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // bt_excluir
             // 

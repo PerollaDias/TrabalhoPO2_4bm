@@ -39,7 +39,7 @@ namespace TrabalhoPO2_4bim
                     novoCliente.Telefone = maskedTextBox2.Text;
                 };
 
-                MessageBox.Show("Usuário cadastrado com sucesso!", "Cadastro efetuado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Cliente cadastrado com sucesso!", "Cadastro efetuado", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                
             }
@@ -70,6 +70,36 @@ namespace TrabalhoPO2_4bim
             maskedTextBox1.Clear();
             maskedTextBox3.Clear();
             maskedTextBox2.Clear();
+        }
+
+        private void maskedTextBox3_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void maskedTextBox2_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
