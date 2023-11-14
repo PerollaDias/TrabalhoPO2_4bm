@@ -90,6 +90,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validacoes.cs" />
     <EmbeddedResource Include="Cadastrar_Funcionário.resx">
       <DependentUpon>Cadastrar_Funcionário.cs</DependentUpon>
     </EmbeddedResource>

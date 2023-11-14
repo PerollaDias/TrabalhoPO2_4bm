@@ -33,7 +33,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.tx1 = new System.Windows.Forms.TextBox();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // btEntrar
@@ -63,6 +63,7 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(236, 293);
             this.textBox1.Name = "textBox1";
+            this.textBox1.PasswordChar = '*';
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 9;
             // 
@@ -86,12 +87,14 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "CPF:";
             // 
-            // tx1
+            // maskedTextBox1
             // 
-            this.tx1.Location = new System.Drawing.Point(236, 265);
-            this.tx1.Name = "tx1";
-            this.tx1.Size = new System.Drawing.Size(100, 20);
-            this.tx1.TabIndex = 6;
+            this.maskedTextBox1.Location = new System.Drawing.Point(236, 263);
+            this.maskedTextBox1.Mask = "000,000,000-00";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(87, 20);
+            this.maskedTextBox1.TabIndex = 23;
+            this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
             // 
             // Form1
             // 
@@ -100,12 +103,12 @@
             this.BackgroundImage = global::TrabalhoPO2_4bim.Properties.Resources.Black_Modern_Gym_Fitness__Poster_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(556, 464);
+            this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.btEntrar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.tx1);
             this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Text = "Form1";
@@ -122,6 +125,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox tx1;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
     }
 }

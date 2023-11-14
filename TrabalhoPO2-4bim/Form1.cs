@@ -24,8 +24,28 @@ namespace TrabalhoPO2_4bim
 
         private void btEntrar_Click(object sender, EventArgs e)
         {
-            Menu m = new Menu();
-            m.ShowDialog();
+            string cpf = maskedTextBox1.Text;
+            bool validaCPF = Validacoes.ValidarCPF(cpf);
+            if (validaCPF)
+            {
+                MessageBox.Show(validaCPF.ToString());
+                Menu m = new Menu();
+                m.ShowDialog();
+               
+            }
+            
+            else
+            {
+                MessageBox.Show("CPF não existente", "Tente novamente!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+               
+            }
+           
+
+        }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
         }
     }
 }

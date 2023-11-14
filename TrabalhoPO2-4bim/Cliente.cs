@@ -8,10 +8,10 @@ namespace TrabalhoPO2_4bim
 {
     internal class Cliente
     {
-        public string nm { get; set; }
-        public string end { get; set; }
-        public string cpf { get; set; }
-        public DateTime datadenasci { get; set; }
-        public string telefone { get; set; }
+        public string Nome { get; set; }
+        public string End { get; set; }
+        public string Cpf { get; set; }
+        public string Nascimento { get; set; }
+        public string Telefone { get; set; }
     }
 }
